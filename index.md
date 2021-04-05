@@ -112,13 +112,7 @@
             ></span>
           </span>
         </div>
-        <div id="timesteps">
-          <button onclick="jumpTo(0)">0s</button>
-          <button onclick="jumpTo(5)">5s</button>
-          <button onclick="jumpTo(10)">10s</button>
-          <button onclick="jumpTo(15)">15s</button>
-          <button onclick="jumpTo(20)">20s</button>
-        </div>
+        
       </section>
 
    <script>
