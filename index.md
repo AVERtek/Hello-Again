@@ -18,12 +18,115 @@
 
   <!-- OPTIONAL: Include prismatic.js for Magic Leap support -->
   <!--<script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>-->
-
-<model-viewer 
+ 
   
+  <script>
+      function Sync(selector, audioSelector) {
+        var modelViewer = document.querySelector(selector);
+        var sound = document.querySelector(audioSelector);
+        var playRequest = document.querySelector("#overlay");
 
+   sound.addEventListener("timeupdate", () => {
+          modelViewer.currentTime = sound.currentTime;
+          console.log("modelViewer time: " + modelViewer.currentTime);
+        });
+
+   sound.addEventListener("pause", () => {
+          modelViewer.pause();
+        });
+
+   sound.addEventListener("play", () => {
+          modelViewer.play();
+
+   playRequest.classList.add("hide");
+        });
+
+   document.addEventListener("visibilitychange", () => {
+          if (document.visibilityState !== "visible") {
+            sound.pause();
+          }
+        });
+
+   var promise = sound.play();
+        if (promise !== undefined) {
+          promise
+            .then(_ => {
+              console.log("Autoplay has worked");
+              playRequest.classList.add("hide");
+            })
+            .catch(error => {
+              // Show a "Play" button so that user can start playback.
+              console.log("Autoplay has not worked");
+
+   // show the modal dialogue to play this
+   playRequest.classList.remove("hide");
+            });
+        }
+
+   /*
+        // this was needed because modelViewer.currentTime does not update when paused
+        // https://github.com/google/model-viewer/issues/1113
+          function enforceTime() {
+            if (modelViewer === undefined)
+            modelViewer = document.querySelector(selector);
+
+   if (sound.paused) modelViewer.currentTime = sound.currentTime;
+
+   // need to enforce play
+           if (modelViewer.paused && typeof modelViewer.play === "function")
+              modelViewer.play();
+
+   requestAnimationFrame(enforceTime);
+           }
+
+   requestAnimationFrame(enforceTime);
+        */
+         }
+
+   function playNow() {
+        var playRequest = document.querySelector("#overlay");
+        playRequest.classList.add("hide");
+
+   var sound = document.querySelector("#sound");
+        sound.play();
+      }
+
+   function jumpTo(time) {
+        var sound = document.querySelector("#sound");
+        sound.currentTime = time;
+      }
+   </script>
+
+   
+<model-viewer camera-controls camera-orbit="0deg 90deg 100%" autoplay animation-name="" id="reveal" id="model-viewer" loading="eager" src="Models/Hello Again_Experience_05.glb?sound=Sound/Hello Again_Experience_05.mp4" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="Models/HelloAgain.reality" alt="helloagain TEST 2" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 100%; height: 500px" exposure="0.20"> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; "> 👋 AR Click Here </button>
 </model-viewer>
 
+<section class="attribution">
+        <div>
+          <span>
+            <h1>Hello Again</h1>
+            <span>
+              <audio controls autoplay loop id="sound">
+                <source src="Sound/Hello Again_Experience_05.mp4"/>
+              </audio
+            ></span>
+          </span>
+        </div>
+        <div id="timesteps">
+          <button onclick="jumpTo(0)">0s</button>
+          <button onclick="jumpTo(5)">5s</button>
+          <button onclick="jumpTo(10)">10s</button>
+          <button onclick="jumpTo(15)">15s</button>
+          <button onclick="jumpTo(20)">20s</button>
+        </div>
+      </section>
+
+   <script>
+        window.addEventListener("load", () => {
+          Sync("#model-viewer", "#sound");
+        });
+      </script>
+   
 
 <script>
 /**
