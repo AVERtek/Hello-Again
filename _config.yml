@@ -1,8 +1,7 @@
 #title: AVERtek # your name photo (or website title) here
-font-family: Brandon Grotesque Medium;
 logo1: "images/HelloAgain_Logo-CMYK-4.png? raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <h3 style="color:#6B82FF;"><b>CANNABIS-POWERED SUPPOSITORY</h3></b>
+  <h3 style="color:#6B82FF;"><b><p style="font-family:Brandon Grotesque Medium">CANNABIS-POWERED SUPPOSITORY</p></h3></b>
   <h3 style="color:#6B82FF;"><b>FORMULATED FOR MENOPAUSE</h3></b>
   <h3 style="color:#6B82FF;"><b>HELPING WOMEN OF ALL AGES</h3></b>
   <br><br>
