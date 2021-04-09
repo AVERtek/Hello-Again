@@ -1,6 +1,8 @@
 #title: AVERtek # your name photo (or website title) here
+p {font-family: Arial;}
 logo1: "images/HelloAgain_Logo-CMYK-4.png? raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
+<p>
   <h3 style="color:#6B82FF;"><b>CANNABIS-POWERED SUPPOSITORY</h3></b>
   <h3 style="color:#6B82FF;"><b>FORMULATED FOR MENOPAUSE</h3></b>
   <h3 style="color:#6B82FF;"><b>HELPING WOMEN OF ALL AGES</h3></b>
@@ -12,7 +14,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <h3 style="color:#6B82FF;"><b>ENLIGHTENMENT:</h3></b><a href="https://helloagainproducts.com/wp-content/uploads/2021/03/HELLO-AGAIN-LAUNCH.mp4?utm_source=Why%20Us&utm_medium=Video&utm_campaign=XR-NOW&utm_content=PoP" onclick="getOutboundLink('https://helloagainproducts.com/wp-content/uploads/2021/03/HELLO-AGAIN-LAUNCH.mp4?utm_source=Why%20Us&utm_medium=Video&utm_campaign=XR-NOW&utm_content=PoP'); return false;"</b> <b> WHY</a> 
   <br><br>
   <h3 style="color:#6B82FF;"><b>ENGAGE:</h3></b><a href="https://helloagainproducts.com/locations/?utm_source=Where%20to%20Buy&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=PoP" onclick="getOutboundLink('https://helloagainproducts.com/locations/?utm_source=Where%20to%20Buy&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=PoP'); return false;"</b><b> WHERE</b></a> 
-  <br><br>
+  <br><br></p>
 theme: jekyll-theme-minimal
 # Google Analytics
 google_analytics: UA-000000000-0 
