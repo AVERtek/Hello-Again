@@ -1,10 +1,11 @@
 #title: AVERtek # your name photo (or website title) here
 logo1: "images/HelloAgain_Logo-CMYK-4.png? raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
-  <h3 style="color:#6B82FF;"><b>CANNABIS-POWERED VAGITORY</h3></b>
-  <h3 style="color:#6B82FF;"><b>Menopause Relief</h3></b>
+  <h3 style="color:#6B82FF;"><b>CANNABIS-POWERED SUPPOSITORY</h3></b>
+  <h3 style="color:#6B82FF;"><b>FORMULATED FOR MENOPAUSE</h3></b>
+  <h3 style="color:#6B82FF;"><b>HELPING WOMEN OF ALL AGES</h3></b>
   <br><br>
-  <h3 style="color:#6B82FF;"><b>EXPERIENCE:</h3></b> 3D & 4D on Mobile Device
+  <h3 style="color:#6B82FF;"><b>EDUCATION:</h3></b><a href="https://helloagainproducts.com/faq/?utm_source=FAQ&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=point%20of%20purchase" onclick="getOutboundLink('https://helloagainproducts.com/faq/?utm_source=FAQ&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=point%20of%20purchase'); return false;"</b><b> WATCH THIS</b></a> 
   <br><br> 
   <h3 style="color:#6B82FF;"><b>EDUCATION:</h3></b><a href="https://helloagainproducts.com/faq/?utm_source=FAQ&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=point%20of%20purchase" onclick="getOutboundLink('https://helloagainproducts.com/faq/?utm_source=FAQ&utm_medium=marketing&utm_campaign=XR-NOW&utm_content=point%20of%20purchase'); return false;"</b><b> FAQs</b></a> 
   <br><br>
