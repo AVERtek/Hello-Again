@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    {% if site.posts.first.style %}
+  <link rel="stylesheet" href="/css/art-direction/{{ site.posts.first.style }}">
+{% elsif page.style %}
+  <link rel="stylesheet" href="/css/art-direction/{{ page.style }}">
+{% endif %}
+
+{% if site.posts.first.googlewebfonts %}
+  <link href='http://fonts.googleapis.com/css?family={{ site.posts.first.googlewebfonts }}'>
+{% elsif page.googlewebfonts %}
+  <link href='http://fonts.googleapis.com/css?family={{ page.googlewebfonts }}'>
+{% endif %}
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
