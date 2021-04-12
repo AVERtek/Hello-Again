@@ -1,5 +1,5 @@
-<img src="images/HelloAgain_Logo-CMYK-3.png" width=300>
-### Experience Augmented Reality; 4D "Hello Again" on Mobile <!-- Loads <model-viewer> for old browsers like IE11: -->
+<img src="images/HelloAgain_Logo-CMYK-3.png" width=200>
+## MAY THE FORCE BE IN YOU! <!-- Loads <model-viewer> for old browsers like IE11: -->
 <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
   </script>
 
@@ -104,7 +104,6 @@
 <section class="attribution">
         <div>
           <span>
-            <h1>MAY THE FORCE BE IN YOU!</h1>
             <span>
               <audio controls autoplay loop id="sound">
                 <source src="Sound/Hello Again_Experience_05.mp4"/>
@@ -113,7 +112,7 @@
           </span>
         </div>
         
-      </section>
+   </section>
 
    <script>
         window.addEventListener("load", () => {
