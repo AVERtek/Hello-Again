@@ -1,5 +1,5 @@
-<img src="images/HelloAgain_Logo-CMYK-3.png" width=300>
-### Experience Augmented Reality; 4D "Hello Again" on Mobile <!-- Loads <model-viewer> for old browsers like IE11: -->
+<img src="images/HelloAgain_Logo-CMYK-3.png" width=200>
+## MAY THE FORCE BE IN YOU! <!-- Loads <model-viewer> for old browsers like IE11: -->
 <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
   </script>
 
@@ -98,13 +98,12 @@
    </script>
 
    
-<model-viewer camera-controls camera-orbit="0deg 90deg 105%" autoplay animation-name="" id="reveal" id="model-viewer" loading="eager" src="Models/Hello Again_Experience_05.glb?sound=Sound/Hello Again_Experience_05.mp4" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="Models/HelloAgain.reality" alt="helloagain TEST 2" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 100%; height: 650px" exposure="0.20"> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; "> 👋 AR Click Here </button>
+<model-viewer camera-controls camera-orbit="0deg 90deg 105%" autoplay animation-name="" id="reveal" id="model-viewer" loading="eager" src="Models/Hello Again_Experience_05.glb?sound=Sound/Hello Again_Experience_05.mp4" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="Models/HelloAgain.reality" alt="helloagain TEST 2" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 100%; height: 600px" exposure="0.20"> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; "> 👋 AR Click Here </button>
 </model-viewer>
 
 <section class="attribution">
         <div>
           <span>
-            <h1>Hello Again</h1>
             <span>
               <audio controls autoplay loop id="sound">
                 <source src="Sound/Hello Again_Experience_05.mp4"/>
@@ -113,7 +112,7 @@
           </span>
         </div>
         
-      </section>
+   </section>
 
    <script>
         window.addEventListener("load", () => {
