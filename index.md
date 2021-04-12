@@ -1,5 +1,5 @@
 <img src="images/HelloAgain_Logo-CMYK-3.png" width=200>
-##<p style="font-family:Brandon Grotesque Medium">MAY THE FORCE BE IN YOU!</p>MAY THE FORCE BE IN YOU! <!-- Loads <model-viewer> for old browsers like IE11: -->
+## MAY THE FORCE BE IN YOU! <!-- Loads <model-viewer> for old browsers like IE11: -->
 <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
   </script>
 
