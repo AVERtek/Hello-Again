@@ -106,6 +106,7 @@
 <section class="attribution">
         <div>
           <span>
+            <h1 style="text-align: center;" markdown="1">Hear Our Story</h1>
               <p align="center">
             <span>
               <audio controls autoplay loop id="sound">
