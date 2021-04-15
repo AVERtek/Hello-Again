@@ -2,11 +2,11 @@
 logo1: "images/HelloAgain_Logo-CMYK-4.png? raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <h3 style="text-align: center;" markdown="1"><b style="color:#000000;"><p style="font-family:Brandon Grotesque Medium"> CANNABIS-POWERED SUPPOSITORY</p></h3></b>
-  <h3 style="color:#000000;"><b><p style="font-family:Brandon Grotesque Medium">FORMULATED FOR MENOPAUSE</p></h3></b>
-  <h3 style="color:#000000;"><b><p style="font-family:Brandon Grotesque Medium">HELPING WOMEN OF ALL AGES</p></h3></b>
+  <h3 style="text-align: center;" markdown="1"><b style="color:#000000;"><p style="font-family:Brandon Grotesque Medium">FORMULATED FOR MENOPAUSE</p></h3></b>
+  <h3 style="text-align: center;" markdown="1"><b style="color:#000000;"><p style="font-family:Brandon Grotesque Medium">HELPING WOMEN OF ALL AGES</p></h3></b>
   <br>
   <br>
-  <h2 style="color:#6B82FF;"><b><a href="https://helloagainproducts.com/?utm_source=AVERtek&utm_medium=QR&utm_campaign=Info&utm_content=WebsiteHome" onclick="getOutboundLink('https://helloagainproducts.com/?utm_source=AVERtek&utm_medium=QR&utm_campaign=Info&utm_content=WebsiteHome'); return false;"</b><b><p style="font-family:Brandon Grotesque Medium">HELLOAGAINPRODUCTS.COM</p></b></a></h2> 
+  <h2 style="text-align: center;" markdown="1"><b style="color:#6B82FF;"><a href="https://helloagainproducts.com/?utm_source=AVERtek&utm_medium=QR&utm_campaign=Info&utm_content=WebsiteHome" onclick="getOutboundLink('https://helloagainproducts.com/?utm_source=AVERtek&utm_medium=QR&utm_campaign=Info&utm_content=WebsiteHome'); return false;"</b><b><p style="font-family:Brandon Grotesque Medium">HELLOAGAINPRODUCTS.COM</p></b></a></h2> 
   <br>
   <h2 style="color:#6B82FF;"><b><a href="https://helloagainproducts.com/wp-content/uploads/2021/03/HELLO-AGAIN-LAUNCH.mp4?utm_source=Why%20Us&utm_medium=Video&utm_campaign=XR-NOW&utm_content=PoP" onclick="getOutboundLink('https://helloagainproducts.com/wp-content/uploads/2021/03/HELLO-AGAIN-LAUNCH.mp4?utm_source=Why%20Us&utm_medium=Video&utm_campaign=XR-NOW&utm_content=PoP'); return false;"</b><b><p style="font-family:Brandon Grotesque Medium"> WATCH THIS!</p></b></a></h2> 
   <br> 
