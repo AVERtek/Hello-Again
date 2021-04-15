@@ -106,11 +106,13 @@
 <section class="attribution">
         <div>
           <span>
+              <p align="center">
             <span>
               <audio controls autoplay loop id="sound">
                 <source src="Sound/Hello Again_Experience_New_02.mp4"/>
               </audio
             ></span>
+             </p>
           </span>
         </div>
         
